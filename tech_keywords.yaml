@@ -1,0 +1,380 @@
+# Archivo de configuración de tecnologías a buscar en documentos PDF
+# Puedes modificar, agregar o eliminar categorías y tecnologías según tus necesidades
+
+lenguajes_programacion:
+  - python
+  - java
+  - javascript
+  - typescript
+  - "c#"
+  - "c++"
+  - php
+  - ruby
+  - go
+  - rust
+  - scala
+  - kotlin
+  - swift
+  - dart
+  - matlab
+  - perl
+  - shell
+  - bash
+  - powershell
+  - "visual basic"
+  - "vb.net"
+  - "objective-c"
+  - assembly
+  - cobol
+  - fortran
+  - lua
+  - groovy
+
+frameworks_web:
+  - react
+  - angular
+  - "vue.js"
+  - svelte
+  - django
+  - flask
+  - spring
+  - laravel
+  - symfony
+  - "express.js"
+  - "next.js"
+  - "nuxt.js"
+  - gatsby
+  - "ember.js"
+  - "backbone.js"
+  - jquery
+  - bootstrap
+  - tailwind
+  - "material-ui"
+  - "ant design"
+  - "semantic ui"
+  - foundation
+  - bulma
+
+bases_datos:
+  - mysql
+  - postgresql
+  - oracle
+  - "sql server"
+  - mongodb
+  - redis
+  - elasticsearch
+  - cassandra
+  - dynamodb
+  - firebase
+  - sqlite
+  - mariadb
+  - couchdb
+  - neo4j
+  - influxdb
+  - clickhouse
+  - snowflake
+  - bigquery
+  - redshift
+  - teradata
+
+sistemas_operativos:
+  - windows
+  - linux
+  - ubuntu
+  - centos
+  - "red hat"
+  - debian
+  - fedora
+  - suse
+  - macos
+  - android
+  - ios
+  - unix
+  - solaris
+  - aix
+  - freebsd
+  - alpine
+
+cloud_platforms:
+  - aws
+  - "amazon web services"
+  - azure
+  - "google cloud"
+  - gcp
+  - "alibaba cloud"
+  - "ibm cloud"
+  - "oracle cloud"
+  - digitalocean
+  - linode
+  - vultr
+  - heroku
+  - vercel
+  - netlify
+  - cloudflare
+  - fastly
+
+contenedores_orquestacion:
+  - docker
+  - kubernetes
+  - k8s
+  - openshift
+  - rancher
+  - helm
+  - istio
+  - containerd
+  - podman
+  - lxc
+  - "docker swarm"
+  - nomad
+  - mesos
+
+devops_ci_cd:
+  - jenkins
+  - "gitlab ci"
+  - "github actions"
+  - "azure devops"
+  - bamboo
+  - teamcity
+  - "circle ci"
+  - "travis ci"
+  - ansible
+  - terraform
+  - puppet
+  - chef
+  - saltstack
+  - vagrant
+  - packer
+  - consul
+  - vault
+  - prometheus
+  - grafana
+  - "elk stack"
+  - elasticsearch
+  - logstash
+  - kibana
+  - fluentd
+  - splunk
+
+metodologias:
+  - agile
+  - scrum
+  - kanban
+  - devops
+  - lean
+  - waterfall
+  - xp
+  - safe
+  - itil
+  - cobit
+  - prince2
+  - pmp
+  - "six sigma"
+  - "design thinking"
+
+herramientas_desarrollo:
+  - git
+  - svn
+  - mercurial
+  - jira
+  - confluence
+  - slack
+  - teams
+  - zoom
+  - "visual studio"
+  - "vs code"
+  - intellij
+  - eclipse
+  - netbeans
+  - atom
+  - "sublime text"
+  - vim
+  - emacs
+  - postman
+  - insomnia
+  - swagger
+  - figma
+  - sketch
+  - "adobe xd"
+  - invision
+  - zeplin
+
+tecnologias_frontend:
+  - html
+  - css
+  - sass
+  - less
+  - webpack
+  - parcel
+  - rollup
+  - vite
+  - babel
+  - eslint
+  - prettier
+  - jest
+  - cypress
+  - selenium
+  - playwright
+  - storybook
+  - chromatic
+  - pwa
+  - "service worker"
+
+tecnologias_backend:
+  - "node.js"
+  - express
+  - fastapi
+  - tornado
+  - aiohttp
+  - gin
+  - echo
+  - "spring boot"
+  - quarkus
+  - micronaut
+  - nestjs
+  - adonis
+  - koa
+  - hapi
+  - restify
+  - graphql
+  - apollo
+  - prisma
+  - typeorm
+  - sequelize
+  - mongoose
+  - sqlalchemy
+  - hibernate
+  - mybatis
+
+arquitectura_patrones:
+  - microservicios
+  - monolito
+  - serverless
+  - soa
+  - "api rest"
+  - graphql
+  - grpc
+  - websockets
+  - mqtt
+  - kafka
+  - rabbitmq
+  - activemq
+  - "redis pub/sub"
+  - "event sourcing"
+  - cqrs
+  - "saga pattern"
+  - "circuit breaker"
+  - bulkhead
+  - "strangler fig"
+  - "ambassador pattern"
+
+seguridad:
+  - oauth
+  - jwt
+  - saml
+  - ldap
+  - "active directory"
+  - ssl
+  - tls
+  - https
+  - vpn
+  - firewall
+  - waf
+  - ids
+  - ips
+  - siem
+  - soar
+  - "penetration testing"
+  - "vulnerability assessment"
+  - devsecops
+  - owasp
+  - nist
+  - "iso 27001"
+
+ia_machine_learning:
+  - "inteligencia artificial"
+  - ia
+  - tensorflow
+  - pytorch
+  - "scikit-learn"
+  - keras
+  - pandas
+  - numpy
+  - jupyter
+  - anaconda
+  - spark
+  - hadoop
+  - airflow
+  - kubeflow
+  - mlflow
+  - wandb
+  - "hugging face"
+  - openai
+  - gpt
+  - bert
+  - transformer
+  - "neural networks"
+  - "deep learning"
+  - "computer vision"
+  - nlp
+  - "reinforcement learning"
+
+protocolos_comunicacion:
+  - http
+  - https
+  - tcp
+  - udp
+  - smtp
+  - pop3
+  - imap
+  - ftp
+  - sftp
+  - ssh
+  - telnet
+  - snmp
+  - dhcp
+  - dns
+  - ntp
+  - sip
+  - rtmp
+  - webrtc
+
+# Categorías adicionales que puedes personalizar:
+
+erp_sistemas_gestion:
+  - sap
+  - oracle erp
+  - microsoft dynamics
+  - salesforce
+  - workday
+  - servicenow
+  - jira service management
+  - freshworks
+  - zoho
+  - netsuite
+
+tecnologias_microsoft:
+  - ".net"
+  - "asp.net"
+  - "c# core"
+  - "entity framework"
+  - "azure functions"
+  - "power bi"
+  - "sharepoint"
+  - "office 365"
+  - "microsoft 365"
+  - "power platform"
+  - "power apps"
+  - "power automate"
+
+virtualizacion_infraestructura:
+  - vmware
+  - "hyper-v"
+  - virtualbox
+  - citrix
+  - "red hat virtualization"
+  - proxmox
+  - xen
+  - kvm
+  - "vmware vsphere"
+  - "vmware vcloud"
+  
