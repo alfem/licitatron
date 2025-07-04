@@ -275,7 +275,6 @@ seguridad:
   - "active directory"
   - ssl
   - tls
-  - https
   - vpn
   - firewall
   - waf
@@ -319,8 +318,6 @@ ia_machine_learning:
   - "reinforcement learning"
 
 protocolos_comunicacion:
-  - http
-  - https
   - tcp
   - udp
   - smtp
